@@ -1,8 +1,8 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 import { supabase } from "./supabaseClient";
-import Auth from "./Auth";
-import Account from "./Account";
+import Auth from "./Routes/Auth";
+import Account from "./Routes/Account";
 
 function App() {
   const [session, setSession] = useState(null);
